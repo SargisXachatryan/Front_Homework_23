@@ -1,0 +1,25 @@
+.stars {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.starFilled {
+    color: gold;
+    font-size: 40px;
+    transition: color 0.3s;
+}
+
+.starEmpty {
+    color: #ccc;
+    font-size: 40px;
+    transition: color 0.3s;
+}
+
+.starEmpty:hover {
+    color: gold;
+}
