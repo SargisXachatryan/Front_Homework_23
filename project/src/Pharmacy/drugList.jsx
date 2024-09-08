@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
 import styles from "./drugList.module.css"
 import { Stars } from "./components/stars"
-import { setSearchTerm } from "../Pharmacy/drugList.slice"
+import { setSearchTerm } from "./drugList.slice"
 
 export const DrugList = () => {
     const dispatch = useDispatch()
