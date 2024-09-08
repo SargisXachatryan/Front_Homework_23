@@ -24,7 +24,7 @@ const DrugSlice = createSlice({
             }
         }
     }
-    
+
 })
 
 export const { setSearchTerm, updateRating } = DrugSlice.actions
